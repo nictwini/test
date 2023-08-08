@@ -5,7 +5,7 @@ public class ShapeMaker {
 	
 	Scanner scanner = new Scanner(System.in);
 	
-	System.out.print("Enter the shape number (1 for square, 2 for triangle, 3 for flipped triangle, 4 for diamond: ");
+	System.out.print("Enter the shape number (1 square, 2 triangle, 3 flipped triangle, 4 diamond: ");
     int shapeChoice = scanner.nextInt();
     System.out.print("Enter the number of lines: ");
     int numLines = scanner.nextInt();
