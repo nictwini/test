@@ -7,9 +7,9 @@ public class ShapeMaker {
 	
 	System.out.print("Enter the shape number (1 square, 2 triangle, 3 flipped triangle, 4 diamond: ");
     int shapeChoice = scanner.nextInt();
-    System.out.print("Enter the number of lines: ");
+    System.out.print("Enter the number of lines for the size of shape: ");
     int numLines = scanner.nextInt();
-   
+    
     
     switch(shapeChoice) {
         case 1:
